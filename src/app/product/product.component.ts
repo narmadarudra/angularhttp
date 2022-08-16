@@ -8,7 +8,7 @@ import { ProductsService } from '../products.service';
   styleUrls: ['./product.component.css'],
 })
 export class ProductComponent implements OnInit {
-  productsInfo: any;
+  productsInfo: ProductsModel;
   constructor(private pdtService: ProductsService) {
     this.productsInfo = {} as ProductsModel;
   }
